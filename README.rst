@@ -3,15 +3,15 @@ HDXTOOLS ANGULAR LIBRARY
 
 INFO
 ----
-The build scripts are based on the following repo `Angular QuickStart Lib <https://github.com/filipesilva/angular-quickstart-lib>`_ . Thanks !
-The `inline-resources.js <inline-resources.js>`_ script was modified to support **less**.
-
+The library was created using the Angular CLI generate command.
+Eg. `ng generate library hxl-preview-ng-lib --prefix=hxl`
 
 BUILDING THE LIBRARY
 --------------------
-To build the library simply run :code:`npm run build`
+To build and package the library simply run :code:`npm run package`. This will also move the generated package to
+the `build` folder.
 
-You can easily package it for testing in a project: :code:`cd dist && npm pack`
+To test just building you can run `npm run build_lib`
 
 USING WITHOUT PUBLISHING
 ------------------------
@@ -25,6 +25,3 @@ More information about using a library `without publishing on npm server <http:/
 
 
 **NOTE**: For now the library is not published on npm but is part of this repo in `build <build>`_
-
-  
-Cheat: `npm run build && cd dist && npm pack && cd .. && cp dist/hxl-preview-ng-lib*.tgz build/`
