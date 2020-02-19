@@ -1,6 +1,11 @@
 HDXTOOLS ANGULAR LIBRARY
 ========================
 
+DEPRECATED REPO
+---------------
+The hxl-preview-ng-lib was integrated in the quick charts repository <https://github.com/OCHA-DAP/hdx-hxl-preview>.
+Releases of the lib prior to 3.0 can be found here, versions above are in the quick charts repo.
+
 INFO
 ----
 The library was created using the Angular CLI generate command.
